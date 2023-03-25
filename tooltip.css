@@ -1,0 +1,21 @@
+.modern-btn {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hotpink;
+    border-radius: 2px;
+    border-bottom: 1px solid violet;
+    border: none;
+    color: aqua;
+}
+
+.modern-btn:hover {
+    background-color: rgb(241, 78, 78);
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: white;
+    transition: all 0.4s;
+    box-shadow: 5px 5px 10px indianred;
+}
